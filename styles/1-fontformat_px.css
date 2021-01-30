@@ -1,0 +1,82 @@
+﻿@charset "UTF-8";
+
+/* 1. Necessary re-styling due to CSS Reset:*/
+strong, b{
+	font-weight: bold;
+	}
+			
+em, i{
+	font-style: italic;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller; 
+	}
+
+/* 2. Body and Page Container*/
+body {	
+	font: 100% Helvetica, sans-serif;
+	}	
+
+/* 3. Element Formats */
+h1, h2, h3 {
+	font: bold 1.125em Tahoma, sans-serif; /* 18px 1.125em */
+	}
+
+h1 {
+	font: bold 20px;
+	}
+
+h2 {
+	text-transform: uppercase;
+	font-variant: small-caps;
+	}
+
+h3 {
+	font-size: 0.875em; /* 14px .875em*/
+	}
+
+p {
+	font-size: 14px; /* 14px .875em*/
+	line-height: 1.5;
+	text-align: justify;
+	}			
+
+/* 5. Link formats */
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+a:visited {
+	text-decoration: none;
+	}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	}
+
+/* 6. Nav Formats */
+ul#toc li{
+	font-size: 14px; /* 14px .875em */
+	}
+
+/* 7. Sidebar Formats */
+aside p, figcaption {
+	font-size: 12px; /* 12px .75em*/
+	}
+
+/* 8. Footer Formats */
+footer {
+	font-size: 16px; /* 16px 1em*/
+	}
+
+li#ts{
+	font-size: 14px; /* 14px 0.875em*/
+	font-style: oblique;
+	}
+
+
+

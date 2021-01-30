@@ -1,0 +1,27 @@
+/* Page Container */
+div.inset-shadow {
+    position: relative;
+    /* no effect by itself */
+}
+
+/* Main Content */
+div#content {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    /*10 px from the left, 90px from the top of its parent, */
+}
+
+/* Side Bar */
+div#sidebar {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}

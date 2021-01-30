@@ -1,0 +1,14 @@
+ul#toc li {
+    display: inline-block;
+    float: left;
+}
+
+article p img {
+    float: left;
+}
+
+ul#ft li {
+    display: inline-block;
+    float: left;
+}
+

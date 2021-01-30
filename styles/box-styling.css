@@ -1,0 +1,107 @@
+body {
+    height: 670px;
+    width: 840px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Page Container */
+div.inset-shadow {
+    height: 670px;
+    width: auto;
+}
+
+/* Navigation */
+header#masthead {
+    height: 35px;
+    width: 800px;
+
+    margin: 15px 10px;
+}
+
+ul#toc li {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+/* Main Article */
+div#content {
+    height: auto;
+    width: 565px;
+
+    padding: 0px 10px;
+}
+/* Elements */
+section.method h2 {
+    margin-top: 10px;
+}
+
+article p img {
+    margin-right: 10px;
+}
+
+figure#eff {
+    margin-top: 10px;
+}
+
+
+/* Sidebar */
+div#sidebar {
+    height: auto;
+    width: 175px;
+}
+
+/* Footer */
+footer {
+    height: 35px;
+    width: 800px;
+}
+
+ul#ft li {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+img {
+    border: 3px solid #573f97;
+}
+
+figure img {
+    margin-top: 5px;
+    border-color: #5D5D53;
+}
+
+abbr[title] {
+    border-bottom: thin darkblue dashed;
+}
+
+p {
+    padding-top: 10px;
+}
+
+div#sidebar {
+    height: auto;
+    width: 175px;
+    
+    padding: 0px 15px;
+}
+
+div aside {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.inset-shadow {
+    height: 670px;
+    width: auto;
+
+    padding: 5px 10px 5px 10px;
+}
+
+div#content {
+    height: auto;
+    width: 565px;
+
+    padding: 0px 10px;
+}

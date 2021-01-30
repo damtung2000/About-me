@@ -1,0 +1,52 @@
+﻿@charset "UTF-8";
+
+/**** BACKGROUND COLORS ****/
+/* dark maroon */
+body {	
+	background:#c97f7a; 
+	}
+	
+/*light mint*/
+.inset-shadow {	
+	background: #cfe9d5; 
+	}
+	
+/* dark mint */
+header#masthead {	
+	background-color: #a6d6a9;     
+	}
+
+/* dark mint */
+div#sidebar, footer {
+	background: #9ecfa1; 
+	}
+
+/**** FOREGROUND COLORS ****/
+/* Black */
+body {	
+	color: #000000;     
+	}
+
+
+/* dark cyan*/	
+h1, h2, h3 {
+	color: #243c3f;      
+	}
+	
+/* dark blue-purple */	
+div#sidebar h3, a:link {
+	color: #2d3681; /* #2d3681 */
+	}
+	
+/* light maroon */		
+li#ts, a:hover, a:visited {
+	color: #135dcc; 
+	}
+
+footer {
+	font-size: small;
+}
+
+
+
+
