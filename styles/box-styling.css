@@ -80,6 +80,10 @@ p {
     padding-top: 10px;
 }
 
+article p {
+    padding-bottom: 10px;
+}
+
 div#sidebar {
     height: auto;
     width: 175px;
