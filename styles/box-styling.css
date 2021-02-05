@@ -81,7 +81,7 @@ p {
 }
 
 article p {
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 div#sidebar {
@@ -108,4 +108,9 @@ div#content {
     width: 565px;
 
     padding: 0px 10px;
+}
+
+/* Rounded Corners */
+div.inset-shadow, header#masthead, footer, div#sidebar {
+    border-radius: 10px;
 }
