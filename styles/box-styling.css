@@ -65,12 +65,19 @@ ul#ft li {
 
 img {
     border: 3px solid #573f97;
-    padding: 0px
+    padding: 0px;
+    transition: transform .2s;
+    z-index: 10000;
+}
+
+img:hover {
+    transform: scale(1.7);
 }
 
 figure img {
     margin-top: 5px;
     border-color: #5D5D53;
+    padding: 0px;
 }
 
 abbr[title] {

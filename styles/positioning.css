@@ -25,3 +25,8 @@ footer {
     bottom: 15px;
     left: 20px;
 }
+table {
+    position:absolute;
+    top: 55px;
+    left: 65px;
+}
