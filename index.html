@@ -14,20 +14,37 @@
         <link rel="stylesheet" href="styles/layout-floating.css" />
         <style> 
             #rpi img{border-color:#573f97;}
-            /*div {
+
+            /* 
+            img.main:hover {
                 position:relative;
-                animation-duration: 3s;
-                animation-name:transition
+                animation-duration: 0.5s; 
+                transition: transform 0.5s;
+                animation-name:transition; 
+                animation-fill-mode: forwards; 
+                z-index: 999;
+                width: 150px;
             }
             @keyframes transition {
-                from {
-                }
-                to {
-                    left: -330px;
-                }
-            }*/
+                0% {width: 150px;}
+                100%{
+                    -ms-transform: scale(1.8);
+                    -moz-transform: scale(1.8);
+                    -webkit-transform: scale(1.8);
+                    -o-transform: scale(1.8);
+                    transform: scale(1.8);
+                    }
+
+            } */
             /*animation config*/
-            
+            img {
+                    transition: transform .2s; /* Animation */
+                    z-index: 10000;
+                }
+
+            img:hover {
+                    transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }
         </style>
 
         <!-- HTML5 shiv-->
@@ -59,13 +76,13 @@
                     </p>
                     <section class="method">
                         <h2 id="bcc">Business Case Challenge</h2>
-                            <p><img src="images/bcc.jpg" width="150" alt="My BCC Team" /> <!-- or 150x84.4-->
+                            <p><img class = "main" src="images/bcc.jpg" width="150" alt="My BCC Team" /> <!-- or 150x84.4-->
                             In my first year, I joined the Business Case Challege with a group of friends who are all first year students. The competition requires each team to devise a business plan as the solution for the case in 21 hours. As we lacked experience and knowledge about the competition, we got eliminated on the first round. However, it was a great experience for all of us and we had a great time working together.
                             </p>
                     </section>
                     <section class="method">
                         <h2 id="TA">Teaching Assistant</h2>
-                        <p><img src="images/Ruleprotect.png" width="150" height="75" alt="Rule Protect" />
+                        <p><img class="main" src="images/Ruleprotect.png" width="150" height="75" alt="Rule Protect" />
                             I got selected to be a Teaching Assistant for Professor Lanka's Programming course. It has always been my dream to work with programming. The job has given me invaluable experience as both a Teaching Assistant and a programmer. Through helping students to fix their projects, I learned a lot about the many ways a simple task can be done in programming. 
                         </p>
                     </section>
