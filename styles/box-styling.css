@@ -41,7 +41,7 @@ article p img {
     margin-right: 10px;
 }
 
-figure#rpi, figure#eff {
+figure#rpi, figure#eff, figure#sun {
     margin-top: 10px;
 }
 
@@ -65,6 +65,7 @@ ul#ft li {
 
 img {
     border: 3px solid #573f97;
+    padding: 0px
 }
 
 figure img {
