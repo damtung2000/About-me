@@ -33,15 +33,15 @@ div#content {
     padding: 0px 10px;
 }
 /* Elements */
-section.method h2 {
-    margin-top: 10px;
+section.method h2, section.project h2 {
+    margin-top: 5px;
 }
 
 article p img {
     margin-right: 10px;
 }
 
-figure#rpi, figure#eff, figure#sun {
+figure#rpi, figure#sun {
     margin-top: 10px;
 }
 
@@ -68,8 +68,10 @@ img {
     padding: 0px;
     transition: transform .2s;
     z-index: 10000;
+    border-radius: 4px;
 }
 
+/* Zoom on Hover */
 img:hover {
     transform: scale(1.7);
 }
