@@ -79,5 +79,12 @@ li#ts{
 	font-style: oblique;
 	}
 
+/* Gallery */
+h1.center {
+	font-size: larger;
+}
 
-
+p.tagline {
+	font-size: small;
+	text-align: center;
+}

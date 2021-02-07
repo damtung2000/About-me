@@ -25,8 +25,21 @@ footer {
     bottom: 15px;
     left: 20px;
 }
-table {
+table#gallery {
     position:absolute;
     top: 55px;
     left: 65px;
+}
+
+/* Gallery */
+h1.center {
+    position: absolute;
+    top: 0px;
+    left: 320px;
+} 
+
+p.tagline {
+    position: absolute;
+    top: 15px;
+    left: 338px;
 }
